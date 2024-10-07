@@ -135,7 +135,7 @@ function CalendarComp() {
         }}
         defaultView={Views.WEEK}
         endAccessor="end"
-        style={{ height: 650 }}
+        style={{ height: 500 }}
         onSelectSlot={handleSelectSlot}
         onSelectEvent={handleEventSelect}
       />

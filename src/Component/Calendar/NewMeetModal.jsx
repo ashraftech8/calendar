@@ -13,7 +13,7 @@ const NewMeetModal = ({
     <>
       <form onSubmit={handleFormSubmit}>
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-gray-800 bg-opacity-75">
-          <div className="bg-white rounded-lg shadow-lg w-full max-w-7xl p-6 transform transition-all duration-300">
+          <div className="bg-white   rounded-lg shadow-lg w-full max-w-7xl max-h-full overflow-y-auto p-6 transform transition-all duration-300">
             <div className=" flex items-center justify-between gap-2 mb-10">
               <div className=" flex items-center gap-2 ">
                 <img src="/download.jpeg" className="w-9 h-9 " alt="Logo" />
@@ -184,15 +184,6 @@ const NewMeetModal = ({
             </div>
 
             {error && <p className="text-red-500 mb-4">{error}</p>}
-
-            <div className="flex justify-between">
-              {/* <button
-                type="submit"
-                className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
-              >
-                {isUpdate ? "Update Meeting" : "Save"}
-              </button> */}
-            </div>
           </div>
         </div>
       </form>
