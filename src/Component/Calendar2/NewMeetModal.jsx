@@ -1,5 +1,4 @@
 import React from "react";
-import Toolbar from "./Toolbar";
 
 const NewMeetModal = ({
   isUpdate,
@@ -13,7 +12,7 @@ const NewMeetModal = ({
     <>
       <form onSubmit={handleFormSubmit}>
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-gray-800 bg-opacity-75">
-          <div className="bg-white rounded-lg shadow-lg w-full max-w-7xl p-6 transform transition-all duration-300">
+          <div className="bg-white rounded-lg shadow-lg w-full max-w-4xl p-6 transform transition-all duration-300">
             <div className=" flex items-center justify-between gap-2 mb-10">
               <div className=" flex items-center gap-2 ">
                 <img src="/download.jpeg" className="w-9 h-9 " alt="Logo" />
@@ -50,8 +49,7 @@ const NewMeetModal = ({
                 </button>
               </div>
             </div>
-            <Toolbar />
-            <div className="mb-4 mt-2">
+            <div className="mb-4">
               <label className="block text-gray-700">Title</label>
               <input
                 type="text"
