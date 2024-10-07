@@ -13,7 +13,7 @@ const NewMeetModal = ({
     <>
       <form onSubmit={handleFormSubmit}>
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-auto bg-gray-800 bg-opacity-75">
-          <div className="bg-white   rounded-lg shadow-lg w-full max-w-7xl max-h-full overflow-y-auto p-6 transform transition-all duration-300">
+          <div className="bg-white   rounded-lg shadow-lg w-full max-w-7xl max-h-full h-[75%] overflow-y-auto p-6 transform transition-all duration-300">
             <div className=" flex items-center justify-between gap-2 mb-10">
               <div className=" flex items-center gap-2 ">
                 <img src="/download.jpeg" className="w-9 h-9 " alt="Logo" />
