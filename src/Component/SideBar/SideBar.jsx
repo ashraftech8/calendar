@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const SideBar = () => {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState("Calendar");
   const navigate = useNavigate();
   return (
     <div className="w-[74px]  bg-gray-100 h-full flex flex-col items-center ml-1 py-4">
