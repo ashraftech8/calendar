@@ -40,28 +40,7 @@
     transform: rotate(360deg);
   }
 }
-/* .meeting-slot {
-  background-color: lightblue;
-  padding: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.Modal {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 400px;
-  margin: auto;
-}
-
-input,
-textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-} */
+ 
 
 .Modal {
   background: rgb(54, 34, 34);
@@ -98,3 +77,6 @@ textarea {
   margin-bottom: 10px;
   padding: 8px;
 }
+
+
+/* Calendar Slot Heright */
