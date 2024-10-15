@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Calendar, momentLocalizer, Views } from "react-big-calendar";
 import moment from "moment";
-import { VideoCameraIcon } from "@heroicons/react/outline"; // Importing the video icon
+
 import NewMeetModal from "./NewMeetModal";
 import CalendarButton from "./CalendarButton";
 import LogoHeader from "../utilis/LogoHeader";
@@ -109,7 +109,6 @@ function CalendarComp() {
 
   // Handle Input Chagne
   const handleChange = (e, field) => {
-    // setFormData({ ...formData, field: e.target.value });
     setFormData((prev) => ({
       ...prev,
       [field]: e.target.value,

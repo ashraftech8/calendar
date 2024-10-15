@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import "./App.css";
+
 import SideBar from "./Component/SideBar/SideBar";
 import { Outlet } from "react-router-dom";
 

@@ -16,7 +16,7 @@ const NewMeetModal = ({
           <div className="bg-white   rounded-lg shadow-lg w-full max-w-7xl max-h-full h-[75%] overflow-y-auto p-6 transform transition-all duration-300">
             <div className=" flex items-center justify-between gap-2 mb-10">
               <div className=" flex items-center gap-2 ">
-                <img src="/download.jpeg" className="w-9 h-9 " alt="Logo" />
+                <img src="/logo192.png" className="w-9 h-9 " alt="Logo" />
                 <h2 className="text-xl pt-2 font-semibold mb-4">
                   {isUpdate ? "Update Meeting" : " New Meeting"}
                 </h2>
