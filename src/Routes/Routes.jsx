@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
+import Loader from "../Component/utilis/Loader";
 
 // Lazy load the components
 const App = React.lazy(() => import("../App"));
@@ -10,7 +11,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Suspense fallback={<div>Loading App...</div>}>
+      <Suspense fallback={<Loader />}>
         <App />
       </Suspense>
     ),
@@ -18,7 +19,7 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: (
-          <Suspense fallback={<div>Loading Calendar...</div>}>
+          <Suspense fallback={<Loader />}>
             <CalendarComp />
           </Suspense>
         ),
