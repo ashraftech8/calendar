@@ -8,7 +8,7 @@ const SideBar = () => {
     <div className="w-[74px]  bg-gray-100 h-full flex flex-col items-center ml-1 py-4">
       <div className="mb-10">
         <img
-          src="/download.jpeg"
+          src="/logo192.png"
           className="w-full h-9 "
           onClick={() => navigate("/")}
         />
